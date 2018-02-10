@@ -55,7 +55,8 @@ a:hover {
 /* FULL SCREEN HEADER  */
 
 .cover {
-  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat 70% center/cover;
+ background:url("mobil3.jpg") no-repeat 70% center/cover;
+ 
    display: table;
   text-align: center;
   height: 100vh;
@@ -212,7 +213,8 @@ footer small {
 /* HEADER */
 @media (min-width: 768px) {
   .cover {
-    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center/cover;
+    background: url('h9.jpg') no-repeat;
+    background-size: cover;
   }
  .hero-text {
     padding: 1.25rem;
@@ -251,7 +253,7 @@ footer small {
 /* Questions */
 @media (min-width: 768px) {
 
-  .question-group {
+  .7uestion-group {
     display: inline-block;
     width: 30%;
     vertical-align: top;
@@ -261,6 +263,7 @@ footer small {
 
   .question-group::after {
     display: none;
+ 
   }
 
   .question-group h3 {
